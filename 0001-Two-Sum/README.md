@@ -19,5 +19,6 @@ Step 3
 Now, the only thing left is to return the two indices where the sum of their values is equal to the target,
 for that, i used an if statement to check the condition, and I also had to add another check to avoid summing the same index with itself.
 
- 
+ <img width="916" height="755" alt="image" src="https://github.com/user-attachments/assets/2bf17c31-6787-4e86-8a60-2064cccbdc2c" />
+
 
