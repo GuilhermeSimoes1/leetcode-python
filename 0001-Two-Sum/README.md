@@ -20,4 +20,4 @@ Now, the only thing left is to return the two indices where the sum of their val
 for that, i used an if statement to check the condition, and I also had to add another check to avoid summing the same index with itself.
 
  
-<img width="919" height="588" alt="image" src="https://github.com/user-attachments/assets/99ce4c33-4397-4b13-8f15-790a88863d6a" />
+
