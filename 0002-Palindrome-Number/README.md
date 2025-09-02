@@ -43,3 +43,6 @@ I know it converts the integer into a string (which breaks one of the LeetCode c
 It has extra runtime and memory use because of list operations.
 
 But for me, important part was to understand how palindromes work and to build my own solution step by step, and the LeetCode accept my solution so GG.
+
+
+<img width="916" height="682" alt="image" src="https://github.com/user-attachments/assets/986d191d-5158-408e-b47d-663e2221b93f" />
