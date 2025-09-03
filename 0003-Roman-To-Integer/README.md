@@ -18,6 +18,7 @@ The next image show the idea of the problem and what our function need to do, wi
 Step 1 – Create the dictionary
 -
 The first thing I did was to replicate the table in the problem statement as a dictionary in code. We need this dictionary to convert the input string into integers.
+
 ![img_2.png](img_2.png)
  
 Step 2 – Create a list and add the numbers
@@ -43,7 +44,9 @@ Step 4 - The main logic
 Before we start this part I need you understand the next logic, you can understand when the number don't have any of the exceptions like this ones:
 
 I can be placed before V (5) and X (10) to make 4 and 9.
-X can be placed before L (50) and C (100) to make 40 and 90. 
+
+X can be placed before L (50) and C (100) to make 40 and 90.
+
 C can be placed before D (500) and M (1000) to make 400 and 900.
 
 The problem is easy, because we only need add all elements of the list,so, when the high numbers are always on the left:
