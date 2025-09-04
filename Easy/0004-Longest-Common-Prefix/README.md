@@ -7,7 +7,7 @@ The exercise ask us to write a function to find the longest common prefix string
 <img width="700" height="246" alt="image" src="https://github.com/user-attachments/assets/ade36ae3-cab9-4370-b7db-ab9372491be3" />
 
 
-Step 1 – 
+Step 1 
 -
 This step was actually one of the last I figured out, after getting an error on my submission.
 
@@ -22,7 +22,7 @@ Here I also added a condition for the case where the list has only one element. 
 <img width="494" height="249" alt="image" src="https://github.com/user-attachments/assets/defb9325-f294-4f6b-907f-d9719ce7a541" />
 
 
-Step 2 – 
+Step 2 
 -
 
 The main idea of this part of the code is to get the first common prefix between the first element and the second element of the list. After that, we only need to use this prefix and compare it with the next elements. If the third element (or others) doesn’t share the same prefix, then either no prefix exists or the prefix becomes shorter after those comparisons.
@@ -33,7 +33,7 @@ Then I used a for loop with zip to iterate through both strings at the same time
 
 <img width="420" height="145" alt="image" src="https://github.com/user-attachments/assets/fd547216-0080-45fc-9c8c-c2d1e96f5d36" />
 
-Step 3 - 
+Step 3 
 -
 
 After comparing the first two elements, we get the “genesis” prefix. This is the prefix we’ll use to compare with the rest of the strings in the list.
@@ -47,7 +47,7 @@ After that, I clear commonLista so we can use it again with the updated prefix. 
 <img width="352" height="197" alt="image" src="https://github.com/user-attachments/assets/5b8d367b-ccca-4744-b166-abdffca82507" />
 
 
-Step 4 - 
+Step 4 
 -
 
 The last step is simple: we just need return the final prefix.
@@ -62,4 +62,5 @@ Submission LettCode:
 Let's goo! I got the exercise accepted, but with a bad runtime xD. I made it more complicated than it needed to be.
 
 <img width="914" height="753" alt="Captura de ecrã 2025-09-04 173214" src="https://github.com/user-attachments/assets/4417e257-7328-4244-824d-df6aeb202b18" />
+
 
