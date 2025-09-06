@@ -3,29 +3,17 @@ class Solution:
 
         dic = {
 
-            "(": ")",
-            "[": "]",
-            "{": "}"
+            ")": "(",
+            "]": "[",
+            "}": "{"
         }
 
-        aux = 0
         stack = []
 
-        if len(s) % 2 != 0:
-            return False
-        for x in s:
-            stack.append(x)
-        for i in range(0, len(s)):
-            for y in range(1, len(s)):
-                aux += 1
-                if dic[stack[i]] == stack[y] and aux%2 == 0 or aux == 1:
-                    aux = 0
-                    continue
+        for element in s:
+            if element in dic.values():
+                stack.append(element)
+            elif not stack or dic[element] != stack.pop():
+                return False
 
-
-        return True
-
-
-
-sol = Solution()
-print(sol.isValid("[]"))
+        return not stack
