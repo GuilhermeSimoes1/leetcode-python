@@ -1,7 +1,3 @@
-from collections import defaultdict
-from typing import List
-
-
 class Solution:
     def topKFrequent(self, nums: List[int],k) -> List[int]:
         dic = defaultdict(int)
@@ -20,11 +16,3 @@ class Solution:
 
         return finalList
 
-
-
-
-
-
-
-solution = Solution()
-print(solution.topKFrequent([1,2,3,3,5,6,6,6,7],2))
