@@ -3,15 +3,11 @@ class Solution:
 
         def helperAvg(left, right, k, lista):
 
-            lenght = len(lista) - 1
             summ = 0
-            avg = 0
             for x in range(left, right + 1):
                 summ += lista[x]
 
-            avg = summ / k
-
-            return avg
+            return summ/k
 
         left = 0
         right = k - 1
