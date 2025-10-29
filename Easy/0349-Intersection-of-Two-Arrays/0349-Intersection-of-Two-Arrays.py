@@ -1,14 +1,12 @@
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
 
-        finalArray = []
+        nums1 = list(set(nums1))
+        nums2 = list(set(nums2))
+        final = []
 
-        for i in range(len(nums1)):
+        for x in nums2:
+            if x in nums1:
+                final.append(x)
 
-            for y in range(len(nums2)):
-
-                if nums1[i] == nums2[y]:
-                    finalArray.append(nums1[i])
-
-        finalArray = list(set(finalArray))
-        return finalArray
+        return final
