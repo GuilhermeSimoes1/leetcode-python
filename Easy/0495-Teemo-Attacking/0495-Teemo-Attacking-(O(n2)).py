@@ -13,3 +13,4 @@ class Solution:
         finalArray = set(Array)
 
         return len(finalArray)
+    
