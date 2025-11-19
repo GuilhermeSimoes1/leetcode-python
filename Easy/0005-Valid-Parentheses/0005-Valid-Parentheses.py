@@ -15,5 +15,4 @@ class Solution:
                 stack.append(element)
             elif not stack or dic[element] != stack.pop():
                 return False
-
         return not stack
